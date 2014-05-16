@@ -21,7 +21,6 @@ public class Page2Fragment extends Fragment {
   public View onCreateView(LayoutInflater inflater, ViewGroup container,
       Bundle savedInstanceState) {
     View root = inflater.inflate(R.layout.fragment_2, container, false);
-    root.findViewById(R.id.view_tools);
     ButterKnife.inject(this, root);
     return root;
   }
