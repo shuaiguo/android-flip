@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.nxzhou.myapplication.app.Page2Fragment">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="@string/what_tools_do"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/view_tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/tools"
+        android:textColor="#ff0000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/view_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/view_tools"
+        android:layout_toLeftOf="@id/view_tools"
+        android:text="@string/product"
+        android:textColor="#90f47a"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/view_tools"
+        android:layout_toRightOf="@id/view_tools"
+        android:text="@string/new_user"
+        android:textColor="#937956"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_tools"
+        android:layout_toLeftOf="@id/view_tools"
+        android:text="@string/text1"
+        android:textColor="#b83d96"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/view_active"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_tools"
+        android:layout_toRightOf="@id/view_tools"
+        android:text="@string/mau"
+        android:textColor="#04b8f3"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/view_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/view_product"
+        android:layout_toRightOf="@id/view_product"
+        android:text="@string/battery"
+        android:textColor="#38b7a9"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/view_flashlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_active"
+        android:layout_toLeftOf="@id/view_active"
+        android:text="@string/flashlight"
+        android:textColor="#387017"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_flashlight"
+        android:layout_toLeftOf="@id/view_flashlight"
+        android:text="@string/award"
+        android:textColor="#e3e830"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/view_battery"
+        android:layout_toRightOf="@id/view_battery"
+        android:text="@string/calendar"
+        android:textColor="#8cd9a0"
+        android:textSize="20sp" />
+
+</RelativeLayout>

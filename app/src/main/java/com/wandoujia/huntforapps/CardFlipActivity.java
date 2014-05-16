@@ -7,6 +7,7 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 
 import com.wandoujia.huntforapps.fragments.Page3Fragment;
+import com.wandoujia.huntforapps.fragments.Page2Fragment;
 import com.wandoujia.huntforapps.fragments.Page5Fragment;
 import com.wandoujia.huntforapps.fragments.Page6Fragment;
 
@@ -24,6 +25,7 @@ public class CardFlipActivity extends Activity {
     setContentView(R.layout.activity_card_flip);
 
     fragments = new ArrayList<Fragment>();
+    fragments.add(new Page2Fragment());
     fragments.add(new Page3Fragment());
     fragments.add(new Page5Fragment());
     fragments.add(new Page6Fragment());
