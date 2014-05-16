@@ -50,5 +50,15 @@
     <string name="card_back_description"><![CDATA[Lorem ipsum dolor sit]]></string>
     <string name="lorem_ipsum"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et magna ut erat elementum cursus in quis ipsum. Nam faucibus ultrices eros, vel tempor leo semper sit amet. Duis magna quam, congue vitae interdum nec, condimentum ut lectus. Sed commodo venenatis eros a dignissim. Nunc adipiscing turpis nec magna venenatis at ultricies ipsum bibendum. Sed volutpat urna quis nisi vulputate egestas. Etiam eu dui a enim lacinia dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nPhasellus orci mi, eleifend nec congue id, volutpat at neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer semper velit vel leo rutrum sed fermentum elit porta.]]></string>
     <string name="what_is_us">介绍 UA，什么是 UA？UA = Growth，是硅谷创业公司最火热的部门。</string>
+    <string name="what_tools_do">What Tools do?</string>
+    <string name="tools">Tools</string>
+    <string name="product">产品矩阵</string>
+    <string name="mau">用户活跃</string>
+    <string name="text1">相互导量</string>
+    <string name="new_user">新用户</string>
+    <string name="battery">省电宝</string>
+    <string name="flashlight">手电筒</string>
+    <string name="award">设计奖</string>
+    <string name="calendar">追追日历</string>
 
 </resources>
