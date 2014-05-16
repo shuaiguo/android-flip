@@ -1,16 +1,17 @@
 package com.wandoujia.huntforapps;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 
+import com.wandoujia.huntforapps.fragments.Page3Fragment;
 import com.wandoujia.huntforapps.fragments.Page5Fragment;
 import com.wandoujia.huntforapps.fragments.Page6Fragment;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CardFlipActivity extends Activity {
   private GestureDetector gestureDetector;
@@ -23,6 +24,7 @@ public class CardFlipActivity extends Activity {
     setContentView(R.layout.activity_card_flip);
 
     fragments = new ArrayList<Fragment>();
+    fragments.add(new Page3Fragment());
     fragments.add(new Page5Fragment());
     fragments.add(new Page6Fragment());
 
