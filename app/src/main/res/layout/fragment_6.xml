@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#3BAA24">
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2">
+
+        <TextView
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#3BAA24"
+                android:textSize="32dip"
+                android:text="Product\nDesign"
+                android:layout_marginRight="1dip"
+                android:layout_marginBottom="1dip"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+        <TextView
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#95C60E"
+                android:textSize="32dip"
+                android:text="Operation"
+                android:layout_marginBottom="1dip"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4">
+
+        <TextView
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#2F7C2F"
+                android:textSize="32dip"
+                android:text="Data\nAnalysis"
+                android:layout_marginRight="1dip"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+        <LinearLayout
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+            <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#F24949"
+                    android:textSize="32dip"
+                    android:text="Engineering"
+                    android:layout_marginBottom="1dip"
+                    android:background="#ffffff"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#3BAA24"
+                    android:textSize="24dip"
+                    android:text="Business\nDevelopment"
+                    android:background="#ffffff"
+                    android:layout_weight="1"/>
+
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="25dip"
+            android:layout_weight="1">
+
+        <TextView
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="48dip"
+                android:text="User+App ↑"
+                android:layout_span="2"/>
+    </TableRow>
+
+</TableLayout>

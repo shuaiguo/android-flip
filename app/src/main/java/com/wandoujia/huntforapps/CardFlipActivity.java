@@ -26,6 +26,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.wandoujia.huntforapps.fragments.Page5Fragment;
+import com.wandoujia.huntforapps.fragments.Page6Fragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -57,6 +58,7 @@ public class CardFlipActivity extends Activity
 
     fragments = new ArrayList<Fragment>();
     fragments.add(new Page5Fragment());
+    fragments.add(new Page6Fragment());
     fragments.add(new CardFrontFragment());
     fragments.add(new CardBackFragment());
 
